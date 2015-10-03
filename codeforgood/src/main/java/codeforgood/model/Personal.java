@@ -10,7 +10,7 @@ public class Personal {
     public String Awards;
     public String Scholarships;
 
-    public int getAcademicPoints() {
+    public int getPersonalPoints() {
         return this.points;
     }
 
