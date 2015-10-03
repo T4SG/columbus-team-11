@@ -31,18 +31,11 @@ public class CodeForGoodController {
     
     @RequestMapping("/postUpdate2")
     public String postUpdate2() {
-    	int totalPoints;
     	return "updateProfile";
     }
     @RequestMapping("/updateAcademics")
     public String updateAcadmics(@RequestParam(value="class1"+"class2", required=false) String class1, String class2){
-    	System.out.println(class1+class2);
-    	//if (text1!=null)
-    	//Profile.getAcademics().setAcademicPoints();
-    	//if (text2!=null)
-    		//Profile.getAcademics().setAcademicPoints();	
-    	//	
-    	System.out.println(Profile.getAcademics().getAcademicPoints());
+    	Profile.getAcademics().getAcademicPoints();
     	return "academics";
     }
     
