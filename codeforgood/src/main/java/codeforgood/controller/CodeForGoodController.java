@@ -23,6 +23,7 @@ public class CodeForGoodController {
     @RequestMapping("/postUpdate")
     public String postUpdate(@RequestParam(value="message", required=false) String message, Map<String,String> model) {
     	model.put("message", message);
+    	model.put("test", "showing some text");
         return "updateSuccess";
     }
     
