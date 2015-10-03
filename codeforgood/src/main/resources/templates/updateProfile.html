@@ -10,15 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript">
 	
-	
-	
-	
-    
-     addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
-
-
-
-
+	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
 
 </script>
 <!--[if lt IE 9]>
@@ -71,10 +63,10 @@
 
 </head>
 
-<body>
+<body style="background-color:#BDBDBD">
 	<div class="header_bg">
 		<div class="container">
-			<div class="row header">
+			<div style="background-color:#EBAF3F" class="row header">
 				<div class="logo navbar-left">
 					<h1>
 						<a href="index.html">The Akron Kingdom</a>
@@ -115,55 +107,53 @@
 
 	</br>
 	<style>
-h1 {
-	font-family: cursive;
-	align: center;
-	font-color: yellow;
+#picture {
+	
 }
 </style>
-	<h1>Sample Class Schedule</h1>
-	<table border="1" style="width: 100%">
-		<tr>
-			<td>GPA:</td>
-			<td>3.87</td>
-		</tr>
-		<tr>
-			<td>Grades:</td>
-		</tr>
-		<tr>
-			<td>Calculus</td>
-			<td>B+</td>
-		</tr>
-		<tr>
-            <td>History</td>
-            <td>A</td>
-        </tr>
-        <tr>
-            <td>Band</td>
-            <td>A+</td>
-        </tr>
-        <tr>
-            <td>English</td>
-            <td>A-</td>
-        </tr>
-        <tr>
-            <td>Gym</td>
-            <td>A+</td>
-        </tr>
-	</table>
-	<p>Please enter any comments you have regarding your classes!</p>
-	<form action="updateAcademics">
-		Calculus:<br> <input type="text" name="class1"> <br>
-		History:<br> <input type="text" name="class2"> <br>
-		Band:<br> <input type="text" name="class3"> <br>
-		English:<br> <input type="text" name="class4"> <br>
-		Gym:<br> <input type="text" name="class5"> <br>
-	<p>Have you recently recieved a scholarship? If so, specify.</p>
-		 <input type="text" name="class1"> <br>
-	<p>Have you recently recieved an award? If so, specify.</p>
-		<input type="text" name="class2"> <br>
-		  <input type="submit" value="submit"/>
-	     </form>
+	<div class="row">
+
+
+		<div class="large-3 columns ">
+			<div class="panel">
+				<a href="#"><img src="images/SpiderChartFinal.png" /></a>
+				<h1>Student Name</h1>
+				  <p><strong>Some Person said:</strong> {{message}} </p>
+				</section>
+			</div>
+		</div>
+	</div>
+	<style>
+.column-left {
+	float: left;
+	width: 33%;
+	padding-left:150px;
+	font-family:cursive;
+    font-size:20px;
+}
+
+.column-right {
+	float: right;
+	width: 33%;
+	padding-left:150px;
+	font-family:cursive;
+    font-size:20px;
+	
+}
+
+.column-center {
+	display: inline-block;
+	width: 33%;
+	padding-left:150px;
+	font-family:cursive;
+	font-size:20px;
+}
+</style>
+	<div class="container">
+		<div class="column-center"><a href="/academics.html">Academics</a></div>
+		<div class="column-left"><a href="/community.html">Community</a></div>
+		<div class="column-right"><a href="/personal.html">Personal</a></div>
+	</div>
 
 
 

@@ -29,11 +29,11 @@ public class Community {
 		points=points+10;
 	}
 	
-	public int getAcademicPoints(){
+	public int getCommunityPoints(){
 		return points;
 	}
 	
-	public void setAcademicPoints(int points){
+	public void setCommunityPoints(int points){
 		this.points=points;
 	}
 

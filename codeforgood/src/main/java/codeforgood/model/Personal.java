@@ -9,12 +9,13 @@ public class Personal {
     public double GPA;
     public String Awards;
     public String Scholarships;
+	private static int k=-1;
 
-    public int getAcademicPoints() {
+    public int getPersonalPoints() {
         return this.points;
     }
 
-    public void setAcademicPoints(int points) {
+    public void setPersonalPoints(int points) {
         this.points = points;
     }
 
