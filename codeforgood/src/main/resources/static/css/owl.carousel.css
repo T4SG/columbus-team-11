@@ -13,7 +13,7 @@
 		cursor:pointer;
     }
     #owl-demo .item:hover a{
-    		color: #146956;
+    		color: #056839;
     }
     #owl-demo .item img{
         display: block;
@@ -48,7 +48,7 @@
     -o-transition:0.5s all;
 }
 .item h4 a:hover{
-	color:#146956;
+	color:#056839;
 	text-decoration:none;
 }
 .item p{

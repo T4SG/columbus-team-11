@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Akron Kingdom</title>
+<title>The Kingdom of Akron</title>
 <!-- Bootstrap -->
 
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
@@ -10,7 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript">
 	
-	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
+	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+
 
 </script>
 <!--[if lt IE 9]>
@@ -60,16 +62,44 @@
 <!----font-Awesome----->
 <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
 <!----font-Awesome----->
+<style>
+.column-left {
+	float: left;
+	width: 33%;
+	padding-left:150px;
+	padding-left: 150px;
+	font-size: 20px;
+}
 
+.column-right {
+	float: right;
+	width: 33%;
+
+	padding-left:150px;
+
+	padding-left: 150px;
+	font-size: 20px;
+
+}
+
+.column-center {
+	display: inline-block;
+	width: 33%;
+
+	padding-left:150px;
+}
+</style>
 </head>
 
-<body style="background-color:#BDBDBD">
-	<div style="background-color:#EBAF3F" class="header_bg">
+<body style="background-color: #BDBDBD">
+	<div style="background-color: #EBAF3F" class="header_bg">
 		<div class="container">
 			<div class="row header">
 				<div class="logo navbar-left">
 					<h1>
-						<a href="index.html">The Akron Kingdom</a>
+						<a href="index.html">The Kingdom of Akron</a> <a> <img
+							style="PADDING-LEFT: 200px; height: 75px;"
+							src="images/LJFF-logo.png" /></a>
 					</h1>
 				</div>
 				<div class="clearfix"></div>
@@ -95,8 +125,8 @@
 						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="profile.html">Profile</a></li>
 						<li><a href="feed.html">Feed</a></li>
-						<li><a href="blog.html">Users</a></li>
-						<li><a href="contact.html">Help</a></li>
+						<li><a href=#>Events</a></li>
+						<li><a href=#>Help</a></li>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -105,68 +135,35 @@
 		</div>
 	</div>
 
-	</br>
-	<style>
-#picture {
-	
-}
-</style>
 	<div class="row">
-
-
 		<div class="large-3 columns ">
 			<div class="panel">
 				<a href="#"><img src="images/SpiderChartFinal.png" /></a>
 				<h1>Student Name</h1>
-				
 				<form action="postUpdate2">
-				<p><input type="submit" class="Points Earned" value="Points Earned"/></p>
+					<p>
+						<input type="submit" class="Points Earned" value="Points Earned" />
+					</p>
 				</form>
-				
-				</section>
+
+
 			</div>
 		</div>
 	</div>
-	<style>
-.column-left {
-	float: left;
-	width: 33%;
-	padding-left:150px;
-	font-family:cursive;
-    font-size:20px;
-}
-
-.column-right {
-	float: right;
-	width: 33%;
-	padding-left:150px;
-	font-family:cursive;
-    font-size:20px;
 	
-}
 
-.column-center {
-	display: inline-block;
-	width: 33%;
-	padding-left:150px;
-	font-family:cursive;
-	font-size:20px;
-}
-</style>
 	<div class="container">
-		<div class="column-center"><a href="/academics.html">Academics</a></div>
-		<div class="column-left"><a href="/community.html">Community</a></div>
-		<div class="column-right"><a href="/personal.html">Personal</a></div>
+		<div class="column-center"><a href="academics.html" class="fa-btn btn-1 btn-1e" style="color: white; background-color:#056839;">Academics</a></div>
+		<div class="column-left"><a href="community.html" class="fa-btn btn-1 btn-1e" style="color: white; background-color:#056839;">Community</a></div>
+		<div class="column-right"><a href="personal.html" class="fa-btn btn-1 btn-1e" style="color: white; background-color:#056839;">Personal</a></div>
 	</div>
 
 
 
 
-
+	<div>
 	<aside class="large-3 columns hide-for-small"></aside>
 	</div>
 
-
-	</div>
 </body>
 </html>

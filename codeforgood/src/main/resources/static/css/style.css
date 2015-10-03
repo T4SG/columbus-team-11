@@ -15,11 +15,11 @@ body {
 }
 /* start header */
 .header_bg{
-	border-top:8px groove #146956;
+	border-top:8px groove #056839;
 	background: #ffffff;
 }
 .header_bg1 {
-	border-top:8px groove #146956;
+	border-top:8px groove #056839;
 	background: url('../images/slider_bg.jpg') no-repeat  left;
 	background-size: 100%;
 }
@@ -29,7 +29,7 @@ body {
 .logo h1 a{
 	font-size: 1em;
 	text-transform: uppercase;
-	color: #146956;
+	color: #056839;
 	text-decoration: none;
 	font-family: 'texgyreadventorregular';
 }
@@ -57,7 +57,7 @@ body {
 }
 .h_search form input[type="submit"]{
 	font-family: 'open_sansregular';
-	background: #146956;
+	background: #056839;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 13px;
@@ -75,12 +75,12 @@ body {
 	-webkit-appearance: none;
 }
 .h_search form input[type="submit"]:hover {
-	background: #146956;
+	background: #056839;
 }
 /* menu */
 .h_menu{
 	padding: 0;
-	background: #146956;
+	background: #056839;
 }
 .navbar {
 	position: relative;
@@ -89,12 +89,12 @@ body {
 	border: none;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	background: #146956;
+	background: #056839;
 	color: #ffffff;
 	padding: 0;
 }
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
-	background: #146956;
+	background: #056839;
 	color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a {
@@ -183,7 +183,7 @@ body {
 	margin: 0 auto;
 }
 .bg{
-	background: #146956;
+	background: #056839;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -197,11 +197,11 @@ body {
 	font-size: 6em;
 	color: #e0e0e0;
 	line-height: 2em;
-	text-shadow: 1px 1px 0px #146956;
-	-webkit-text-shadow: 1px 1px 0px #146956;
-	-moz-text-shadow: 1px 1px 0px #146956;
-	-o-text-shadow: 1px 1px 0px #146956;
-	-ms-text-shadow: 1px 1px 0px #146956;
+	text-shadow: 1px 1px 0px #056839;
+	-webkit-text-shadow: 1px 1px 0px #056839;
+	-moz-text-shadow: 1px 1px 0px #056839;
+	-o-text-shadow: 1px 1px 0px #056839;
+	-ms-text-shadow: 1px 1px 0px #056839;
 }
 .para{
 	font-size: 14px;
@@ -241,7 +241,7 @@ body {
 }
 .btn-1 {
 	border: 2px solid #fcb040;
-	color: #146956;
+	color: #056839;
 }
 /* Button 1e */
 .btn-1e {
@@ -297,7 +297,7 @@ body {
 	padding: 4%;
 }
 .copy p{
-	color: #146956;
+	color: #056839;
 	font-size: 14px;
 	line-height: 1.8em;
 }
@@ -309,7 +309,7 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 .copy p a:hover{
-	color: #146956;
+	color: #056839;
 	text-decoration: none;
 }
 /* start about */
@@ -320,7 +320,7 @@ body {
 	margin: 0 0 20px;
 	text-transform: capitalize;
 	font-size: 3em;
-	color:#146956;
+	color:#056839;
 	font-family: 'texgyreadventorregular';
 }
 .about a{
@@ -335,7 +335,7 @@ body {
 	margin: 0 0 20px;
 	text-transform: capitalize;
 	font-size: 3em;
-	color: #146956;
+	color: #056839;
 	font-family: 'texgyreadventorregular';
 }
 .technology h4{
@@ -357,7 +357,7 @@ body {
 	font-size: 16px;
 	padding: 10px 16px;
 	color: #BDBDBD;
-	background-color: #146956;
+	background-color: #056839;
 	border: 1px solid #2C2929;
 }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
@@ -369,7 +369,7 @@ body {
 	font-size: 13px;
 }
 .alert-warning {
-	color: #146956;
+	color: #056839;
 	background-color: #F3F3F3;
 	border-color: #E2E2E2;
 }
@@ -389,7 +389,7 @@ body {
 	display: block;
 	text-transform: capitalize;
 	font-size: 1.5em;
-	color: #146956;
+	color: #056839;
 	font-family: 'texgyreadventorregular';
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -437,7 +437,7 @@ body {
 .blog_right h4{
 	text-transform: capitalize;
 	font-size: 2em;
-	color: #146956;
+	color: #056839;
 	font-family: 'texgyreadventorregular';
 	margin-bottom: 15px;
 }
@@ -569,7 +569,7 @@ body {
 .tag_nav li a{
 	display: block;
 	text-transform: capitalize;
-	background: #146956;
+	background: #056839;
 	color: #ffffff;
 	font-size: 13px;
 	padding: 8px 14px;
@@ -620,12 +620,12 @@ body {
 	margin: 0 0 20px;
 	text-transform: capitalize;
 	font-size: 3em;
-	color:#146956;
+	color:#056839;
 	font-family: 'texgyreadventorregular';
 }
 .company_ad p{
 	font-size: 14px;
-	color: #146956;
+	color: #056839;
 }
 .company_ad p a {
 	color: #fcb040;
@@ -636,13 +636,13 @@ body {
 }
 .company_ad p a:hover{
 	text-decoration:none;
-	color: #146956;
+	color: #056839;
 }
 .contact-form h2{
 	margin: 0 0 20px;
 	text-transform: capitalize;
 	font-size: 3em;
-	color:#146956;
+	color:#056839;
 	font-family: 'texgyreadventorregular';
 }
 .contact-form span{
@@ -747,7 +747,7 @@ body {
 	.soc_icons {
 		position: absolute;
 		top: 0px;
-		background: #146956;
+		background: #056839;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #FFF;
@@ -756,10 +756,10 @@ body {
 		min-height: 51px;
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		border-color: #146956;
+		border-color: #056839;
 	}
 	.navbar-default {
-		background-color: #146956;
+		background-color: #056839;
 		border:none;
 	}
 	.navbar-nav {
