@@ -2,7 +2,7 @@ package codeforgood.model;
 
 public class Academics {
 
-	private int points=0;
+	static int points=0;
 	public String Awards;
 	public String Scholarships;
 

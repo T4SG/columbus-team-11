@@ -3,19 +3,23 @@ package codeforgood.model;
 public class Profile {
 
 	private String userId;
-	private static Academics academics = new Academics();
+	private static Academics academics;
 	private Community community = new Community();
 	private Personal personal = new Personal();
-	private static int k=-1;
+	public static int k=-1;
 
 	public static Academics getAcademics(){
+		if(k==-1){
+		academics = new Academics();
 		k++;
+		}
 		return academics;
+	
 	}
 	public void setAcademics(Academics academ){
 		this.academics=academ;
 	}
-	
+
 	public Community getCommunity() {
 		return community;
 	}
@@ -35,9 +39,9 @@ public class Profile {
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
-	
+
 	public int calcPoints(){
-		
+
 		return academics.getAcademicPoints()+community.getCommunityPoints()+personal.getPersonalPoints();
 	}
 

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import codeforgood.model.Profile;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.stereotype.Controller;
@@ -34,10 +35,13 @@ public class CodeForGoodController {
     	return "updateProfile";
     }
     @RequestMapping("/updateAcademics")
-    public String updateAcadmics(@RequestParam(value="text", required=false) String text){
-    	if (text!=null);
-    	Profile.getAcademics().setAcademicPoints();
-    		
+    public String updateAcadmics(@RequestParam(value="class1"+"class2", required=false) String class1, String class2){
+    	System.out.println(class1+class2);
+    	//if (text1!=null)
+    	//Profile.getAcademics().setAcademicPoints();
+    	//if (text2!=null)
+    		//Profile.getAcademics().setAcademicPoints();	
+    	//	
     	System.out.println(Profile.getAcademics().getAcademicPoints());
     	return "academics";
     }
