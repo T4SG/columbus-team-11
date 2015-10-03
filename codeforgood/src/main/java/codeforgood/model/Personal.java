@@ -10,15 +10,11 @@ public class Personal {
     public String Awards;
     public String Scholarships;
 
-    public int getPersonalPoints() {
+    public int getAcademicPoints() {
         return this.points;
     }
 
-    public int getPoints() {
-        return this.points;
-    }
-
-    public void setPoints(int points) {
+    public void setAcademicPoints(int points) {
         this.points = points;
     }
 
@@ -28,6 +24,7 @@ public class Personal {
 
     public void setTest(int test) {
         this.Test = test;
+        this.points = this.points + 10;
     }
 
     public int getACT() {
@@ -36,14 +33,16 @@ public class Personal {
 
     public void setACT(int aCT) {
         this.ACT = aCT;
+        this.points = this.points + 10;
     }
 
     public int getSAT() {
         return this.SAT;
     }
 
-    public void setSAT(int sAT) {
-        this.SAT = sAT;
+    public void setSAT(int SAT) {
+        SAT = SAT;
+        this.points = this.points + 10;
     }
 
     public double getGPA() {
@@ -52,6 +51,7 @@ public class Personal {
 
     public void setGPA(double gPA) {
         this.GPA = gPA;
+        this.points = this.points + 10;
     }
 
     public String getAwards() {
@@ -60,6 +60,7 @@ public class Personal {
 
     public void setAwards(String awards) {
         this.Awards = awards;
+        this.points = this.points + 10;
     }
 
     public String getScholarships() {
@@ -68,35 +69,7 @@ public class Personal {
 
     public void setScholarships(String scholarships) {
         this.Scholarships = scholarships;
-    }
-
-    public int setAcademicPoints(int newPoints) {
-        this.points = newPoints;
-        return this.points;
-    }
-
-    public void Test() {
         this.points = this.points + 10;
-    }
-
-    public void ACT() {
-        this.points = this.points + 10;
-    }
-
-    public void SAT() {
-        this.points = this.points + 10;
-    }
-
-    public void GPA() {
-        this.points = this.points + 10;
-    }
-
-    public void Awards() {
-        this.points = this.points + 100;
-    }
-
-    public void Scholarship() {
-        this.points = this.points + 100;
     }
 
 }
