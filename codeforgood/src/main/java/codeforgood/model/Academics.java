@@ -14,12 +14,8 @@ public class Academics {
 		return points;
 	}
 	
-	public int getPoints() {
-		return points;
-	}
-
-	public void setPoints(int points) {
-		this.points = points;
+	public void setAcademicPoints(int points){
+		this.points=points;
 	}
 
 	public int getTest() {
@@ -28,6 +24,7 @@ public class Academics {
 
 	public void setTest(int test) {
 		Test = test;
+		points=points+10;
 	}
 
 	public int getACT() {
@@ -36,14 +33,16 @@ public class Academics {
 
 	public void setACT(int aCT) {
 		ACT = aCT;
+		points=points+10;
 	}
 
 	public int getSAT() {
 		return SAT;
 	}
 
-	public void setSAT(int sAT) {
-		SAT = sAT;
+	public void setSAT(int SAT) {
+		SAT = SAT;
+		points=points+10;
 	}
 
 	public double getGPA() {
@@ -52,6 +51,7 @@ public class Academics {
 
 	public void setGPA(double gPA) {
 		GPA = gPA;
+		points=points+10;
 	}
 
 	public String getAwards() {
@@ -60,6 +60,7 @@ public class Academics {
 
 	public void setAwards(String awards) {
 		Awards = awards;
+		points=points+10;
 	}
 
 	public String getScholarships() {
@@ -68,35 +69,7 @@ public class Academics {
 
 	public void setScholarships(String scholarships) {
 		Scholarships = scholarships;
-	}
-
-	public int setAcademicPoints(int newPoints){
-		points=newPoints;
-		return points;
-	}
-	
-	public void Test(){
 		points=points+10;
-	}
-	
-	public void ACT(){
-		points=points+10;
-	}
-	
-	public void SAT(){
-		points=points+10;
-	}
-	
-	public void GPA(){
-		points=points+10;
-	}
-	
-	public void Awards(){
-		points=points+100;
-	}
-	
-	public void Scholarship(){
-		points=points+100;
 	}
 	
 }
