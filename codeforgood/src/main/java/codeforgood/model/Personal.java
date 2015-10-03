@@ -9,7 +9,7 @@ public class Personal {
     public double GPA;
     public String Awards;
     public String Scholarships;
-	private static int k=-1;
+    
 
     public int getPersonalPoints() {
         return this.points;
